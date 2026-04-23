@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Surya Gautam//LinkedIn Posting Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LinkedIn Posting Calendar
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+DTSTART:20260424T210000
+DTEND:20260424T213000
+SUMMARY:📅 LinkedIn Post: SQL 101 Certificate
+DESCRIPTION:Day 1 - Certificate Post\n\nAttach: certificates/SQL_101.pdf\n\nCaption:\nExcited to share that I've completed the SQL 101 certification! 🎯\n\nAs an HR professional\, I believe data literacy is no longer optional — it's essential. Understanding SQL helps me pull workforce insights\, analyze hiring trends\, and make better data-driven decisions.\n\nAlways learning\, always growing. 📊\n\n#SQL #DataDrivenHR #ContinuousLearning #Amazon #HRAnalytics #UpSkilling
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! SQL 101 Certificate
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260425T210000
+DTEND:20260425T213000
+SUMMARY:🚀 LinkedIn Post: Career Journey - GIS to Amazon HR
+DESCRIPTION:Day 2 - Profile Boost Post\n\nCaption:\nFrom mapping geospatial data to mapping career paths — my journey has been anything but linear. 🗺️➡️👥\n\nI started as a GIS Engineer\, moved into project consulting in the energy sector\, then found my true calling in talent acquisition and workforce staffing.\n\nToday\, as a WFS Staffing Coordinator at Amazon\, I manage end-to-end hiring operations\, partner with NGOs and academic institutions\, and drive diversity in recruitment.\n\nWhat's the most unexpected career pivot you've made?\n\n#CareerJourney #HRProfessional #Amazon #TalentAcquisition #WorkforceStaffing #CareerPivot
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! Career Journey Story
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260426T210000
+DTEND:20260426T213000
+SUMMARY:📅 LinkedIn Post: Code of Business Conduct & Ethics Certificate
+DESCRIPTION:Day 3 - Certificate Post\n\nAttach: certificates/Code_of_Business_Conduct_and_Ethics.pdf\n\nCaption:\nCompleted the Code of Business Conduct and Ethics training ✅\n\nIn HR and staffing\, trust is everything. Understanding ethical guidelines isn't just a checkbox — it's the foundation of every hiring decision\, every candidate interaction\, and every stakeholder relationship.\n\nProud to uphold these standards every day at Amazon.\n\n#Ethics #BusinessConduct #Compliance #Amazon #HRValues #Integrity
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! Business Conduct & Ethics Certificate
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260428T210000
+DTEND:20260428T213000
+SUMMARY:💡 LinkedIn Post: 5 High-Volume Hiring Lessons
+DESCRIPTION:Day 4 - Thought Leadership Post\n\nCaption:\n5 things I've learned managing high-volume hiring at Amazon 🏭👥\n\n1️⃣ Pipeline is everything — build it before you need it\n2️⃣ Agency partnerships need clear SLAs\, not just handshakes\n3️⃣ Data tells you where attrition starts — listen to it\n4️⃣ Candidate experience matters even at scale\n5️⃣ Compliance isn't a bottleneck — it's a safety net\n\nWhat would you add to this list?\n\n#HighVolumeHiring #StaffingOps #TalentAcquisition #HRTips #Recruitment #Amazon
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! High-Volume Hiring Tips
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260429T210000
+DTEND:20260429T213000
+SUMMARY:📅 LinkedIn Post: Preventing Workplace Harassment Certificate
+DESCRIPTION:Day 5 - Certificate Post\n\nAttach: certificates/Preventing_Workplace_Harassment.pdf\n\nCaption:\nCompleted the Preventing Workplace Harassment training 🛡️\n\nCreating a safe\, respectful\, and inclusive workplace isn't just an HR responsibility — it's everyone's responsibility.\n\nAs someone who works closely with new hires and onboarding\, I take this seriously. Every person who walks through our doors deserves to feel safe and valued.\n\n#WorkplaceSafety #HarassmentPrevention #InclusiveWorkplace #Amazon #HRLeadership #POSH
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! Workplace Harassment Certificate
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260430T210000
+DTEND:20260430T213000
+SUMMARY:🚀 LinkedIn Post: Diversity & Inclusion Spotlight
+DESCRIPTION:Day 6 - Profile Boost Post\n\nCaption:\nDiversity isn't just a metric — it's a mindset. 🌍\n\nAt Amazon\, I've had the privilege of partnering with NGOs\, academic institutions\, and community organizations to bring diverse talent into our workforce.\n\nHere's what I've learned:\n→ Inclusive job descriptions attract wider talent pools\n→ Community partnerships open doors traditional sourcing can't\n→ Representation in the hiring process matters\n\n#DiversityAndInclusion #InclusiveHiring #Amazon #HRLeadership #WorkforceDiversity #BelongingAtWork
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! D&I Spotlight
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260501T210000
+DTEND:20260501T213000
+SUMMARY:🤝 LinkedIn Post: Poll - Biggest Hiring Challenge?
+DESCRIPTION:Day 7 - Engagement Post\n\nCaption:\nQuick question for my HR and recruitment network 🤔\n\nWhat's the BIGGEST challenge you face in high-volume hiring?\n\n🔴 Finding quality candidates at scale\n🟡 Reducing early attrition\n🟢 Managing agency partnerships\n🔵 Maintaining compliance across processes\n\nDrop your answer below 👇\n\n#HiringChallenges #Recruitment #HRCommunity #Poll #StaffingOps #TalentAcquisition
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! Engagement Poll
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260502T210000
+DTEND:20260502T213000
+SUMMARY:📅 LinkedIn Post: Data Privacy Training Certificate
+DESCRIPTION:Day 8 - Certificate Post\n\nAttach: certificates/Workplace_Personal_Data_HR_Privacy_Training_NonTech.pdf\n\nCaption:\nCompleted the Workplace Personal Data (HR) Privacy Training ✅🔒\n\nIn an era where data is the new currency\, protecting employee personal data isn't optional — it's a core responsibility.\n\nTrust starts with how we handle people's data.\n\n#DataPrivacy #HRCompliance #PersonalData #Amazon #PrivacyMatters #HRTraining
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! Data Privacy Certificate
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260505T210000
+DTEND:20260505T213000
+SUMMARY:🚀 LinkedIn Post: Why HR Needs Data Skills
+DESCRIPTION:Day 9 - Profile Boost Post\n\nCaption:\nHR is no longer just about people — it's about people + data. 📊👥\n\nHere's why I invested time in learning SQL and data analytics:\n→ Workforce planning needs real numbers\, not gut feelings\n→ Attrition analysis helps us act before it's too late\n→ Hiring funnel metrics reveal where we're losing great candidates\n→ Compliance reporting becomes faster and more accurate\n\nWhat data skill has made the biggest difference in your HR career?\n\n#HRAnalytics #DataDrivenHR #SQL #WorkforcePlanning #HRTech #FutureOfHR
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! Data Skills for HR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260506T210000
+DTEND:20260506T213000
+SUMMARY:📅 LinkedIn Post: Workplace Violence Awareness Certificate
+DESCRIPTION:Day 10 - Certificate Post\n\nAttach: certificates/Amazon_Workplace_Violence_Awareness.pdf\n\nCaption:\nCompleted the Amazon Workplace Violence Awareness training 🛡️\n\nWorkplace safety goes beyond physical infrastructure — it's about awareness\, prevention\, and creating an environment where every associate feels secure.\n\nProud to be part of an organization that prioritizes this.\n\n#WorkplaceSafety #ViolencePrevention #Amazon #SafeWorkplace #HRLeadership #EmployeeWellbeing
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! Violence Awareness Certificate
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260507T210000
+DTEND:20260507T213000
+SUMMARY:💡 LinkedIn Post: What I Wish I Knew Before Entering HR
+DESCRIPTION:Day 11 - Thought Leadership Post\n\nCaption:\n7 years in\, here's what I wish someone told me when I started in HR:\n\n1. HR is not just about hiring — it's about retention\, culture\, and strategy\n2. Data will be your best friend (learn Excel/SQL early)\n3. Stakeholder management is 50% of the job\n4. Compliance isn't boring — it protects people\n5. Every candidate interaction is a brand impression\n6. You'll need thick skin AND a soft heart\n7. The best HR people are lifelong learners\n\n#HRAdvice #CareerLessons #TalentAcquisition #HRCommunity #WorkforceStaffing #LessonsLearned
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! HR Lessons Post
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260508T210000
+DTEND:20260508T213000
+SUMMARY:🚀 LinkedIn Post: 4+ Years at Amazon Milestone
+DESCRIPTION:Day 12 - Profile Boost Post\n\nCaption:\n4+ years at Amazon — and still learning every single day. 🧡\n\nSome highlights:\n✅ Led large-scale hiring drives across multiple seasons\n✅ Built partnerships with NGOs and academic institutions\n✅ Managed talent pipelines for direct hires and agency partners\n✅ Drove compliance audits and process improvements\n✅ Supported diversity and inclusion initiatives\n\nHere's to the next chapter. 🚀\n\n#Amazon #WorkAnniversary #StaffingCoordinator #GratefulForGrowth #HRLeadership #Milestone
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! Amazon Milestone Post
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260509T210000
+DTEND:20260509T213000
+SUMMARY:🤝 LinkedIn Post: Let's Connect! Networking Post
+DESCRIPTION:Day 13 - Engagement Post\n\nCaption:\nI'm expanding my LinkedIn network and would love to connect with:\n\n👥 HR professionals and recruiters\n📊 People analytics enthusiasts\n🏭 Operations and workforce planning leaders\n🎓 L&D and training professionals\n🌍 Anyone passionate about diversity and inclusion\n\nHit that Connect button and let's grow together! 🤝\n\n#OpenToConnect #HRNetwork #LinkedInNetworking #Recruitment #GrowTogether
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! Networking Post
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260512T210000
+DTEND:20260512T213000
+SUMMARY:💡 LinkedIn Post: 2-Week Recap + Future Goals
+DESCRIPTION:Day 14 - Recap Post\n\nCaption:\nThe last two weeks have been about sharing\, learning\, and connecting. Here's a quick recap:\n\n🎓 Shared 5 certifications — SQL\, Ethics\, Privacy\, Safety\, and Harassment Prevention\n💡 Discussed high-volume hiring\, data-driven HR\, and diversity\n🤝 Connected with amazing professionals across the HR community\n\nWhat's YOUR next learning goal? Share below 👇\n\n#GrowthMindset #HRJourney #ContinuousLearning #LinkedInCommunity #NextChapter #HRLeadership
+LOCATION:LinkedIn - linkedin.com/in/surya-gautam
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Time to post on LinkedIn! 2-Week Recap
+END:VALARM
+END:VEVENT
+END:VCALENDAR

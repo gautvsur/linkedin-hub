@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LinkedIn Hub — Surya Gautam</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0a;color:#e0e0e0;min-height:100vh}
+a{text-decoration:none;color:inherit}
+
+/* Header */
+.header{background:linear-gradient(135deg,#0077b5 0%,#004182 60%,#001a3a 100%);padding:60px 0 80px;text-align:center;position:relative;overflow:hidden}
+.header::before{content:'';position:absolute;top:-50%;right:-20%;width:500px;height:500px;background:radial-gradient(circle,rgba(255,255,255,.06) 0%,transparent 70%);border-radius:50%}
+.header h1{font-size:2.4rem;font-weight:800;color:#fff;letter-spacing:-0.5px}
+.header p{color:rgba(255,255,255,.7);font-size:1rem;margin-top:6px}
+.header .badge{display:inline-block;background:rgba(255,255,255,.12);backdrop-filter:blur(10px);color:#fff;padding:6px 18px;border-radius:24px;font-size:.8rem;margin-top:14px;border:1px solid rgba(255,255,255,.15)}
+
+/* Container */
+.container{max-width:1000px;margin:0 auto;padding:0 24px}
+
+/* Cards Grid */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-top:-48px;position:relative;z-index:2}
+.card{background:#141414;border:1px solid #222;border-radius:16px;padding:32px 28px;transition:all .3s ease;cursor:pointer;position:relative;overflow:hidden}
+.card:hover{transform:translateY(-4px);border-color:#0077b5;box-shadow:0 12px 40px rgba(0,119,181,.15)}
+.card::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#0077b5,#00a0dc);opacity:0;transition:opacity .3s}
+.card:hover::after{opacity:1}
+.card-icon{font-size:2.2rem;margin-bottom:16px}
+.card h2{font-size:1.2rem;font-weight:700;color:#fff;margin-bottom:8px}
+.card p{font-size:.88rem;color:#888;line-height:1.6}
+.card .arrow{position:absolute;bottom:24px;right:24px;width:36px;height:36px;border-radius:50%;background:#1a1a1a;display:flex;align-items:center;justify-content:center;color:#0077b5;font-size:1.1rem;transition:all .3s}
+.card:hover .arrow{background:#0077b5;color:#fff}
+
+/* Certificates Section */
+.section{margin-top:56px}
+.section-head{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+.section-head h2{font-size:1.4rem;font-weight:700;color:#fff}
+.section-head .ico{font-size:1.5rem}
+
+.cert-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.cert-card{background:#141414;border:1px solid #222;border-radius:12px;padding:20px;display:flex;align-items:center;gap:16px;transition:all .2s}
+.cert-card:hover{border-color:#0077b5;background:#161616}
+.cert-icon{width:48px;height:48px;border-radius:10px;background:rgba(0,119,181,.1);display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0}
+.cert-info h3{font-size:.9rem;color:#e0e0e0;font-weight:600;margin-bottom:2px}
+.cert-info span{font-size:.78rem;color:#666}
+.cert-link{margin-left:auto;color:#0077b5;font-size:.8rem;font-weight:500;white-space:nowrap}
+
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:40px}
+@media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:#141414;border:1px solid #222;border-radius:12px;padding:24px;text-align:center}
+.stat .num{font-size:2rem;font-weight:800;background:linear-gradient(135deg,#0077b5,#00a0dc);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.stat .lbl{font-size:.78rem;color:#666;margin-top:4px}
+
+/* Footer */
+footer{text-align:center;padding:40px 0;color:#444;font-size:.8rem;margin-top:60px;border-top:1px solid #1a1a1a}
+</style>
+</head>
+<body>
+
+<div class="header">
+<div class="container">
+<h1>LinkedIn Hub</h1>
+<p>Surya Gautam — WFS Staffing Coordinator, Amazon</p>
+<div class="badge">linkedin.com/in/surya-gautam</div>
+</div>
+</div>
+
+<div class="container">
+
+<!-- Main Navigation Cards -->
+<div class="cards">
+<a href="posting-calendar.html" class="card">
+<div class="card-icon">📅</div>
+<h2>14-Day Posting Calendar</h2>
+<p>Day-by-day schedule with ready-to-copy captions, hashtags, and posting tips for certificates and profile boost content.</p>
+<div class="arrow">→</div>
+</a>
+
+<a href="profile-upgrade-guide.html" class="card">
+<div class="card-icon">🚀</div>
+<h2>Profile Upgrade Guide</h2>
+<p>Full audit of your LinkedIn profile with copy-paste headline, About section rewrite, certificate checklist, and quick wins.</p>
+<div class="arrow">→</div>
+</a>
+
+<a href="certificates/" class="card">
+<div class="card-icon">🎓</div>
+<h2>Certificates Folder</h2>
+<p>All 5 renamed PDF certificates ready to attach to your LinkedIn posts and add to your profile.</p>
+<div class="arrow">→</div>
+</a>
+</div>
+
+<!-- Stats -->
+<div class="stats">
+<div class="stat">
+<div class="num">5</div>
+<div class="lbl">Certificates</div>
+</div>
+<div class="stat">
+<div class="num">14</div>
+<div class="lbl">Days of Content</div>
+</div>
+<div class="stat">
+<div class="num">9</div>
+<div class="lbl">Profile Boost Posts</div>
+</div>
+<div class="stat">
+<div class="num">500+</div>
+<div class="lbl">Connections</div>
+</div>
+</div>
+
+<!-- Certificates Quick View -->
+<div class="section">
+<div class="section-head">
+<span class="ico">📜</span>
+<h2>Your Certificates</h2>
+</div>
+<div class="cert-grid">
+<div class="cert-card">
+<div class="cert-icon">📊</div>
+<div class="cert-info">
+<h3>SQL 101</h3>
+<span>Completed Feb 23, 2026</span>
+</div>
+<a href="certificates/SQL_101.pdf" class="cert-link">View PDF →</a>
+</div>
+<div class="cert-card">
+<div class="cert-icon">⚖️</div>
+<div class="cert-info">
+<h3>Code of Business Conduct and Ethics</h3>
+<span>Completed Mar 18, 2026</span>
+</div>
+<a href="certificates/Code_of_Business_Conduct_and_Ethics.pdf" class="cert-link">View PDF →</a>
+</div>
+<div class="cert-card">
+<div class="cert-icon">🛡️</div>
+<div class="cert-info">
+<h3>Preventing Workplace Harassment</h3>
+<span>Completed Mar 18, 2026</span>
+</div>
+<a href="certificates/Preventing_Workplace_Harassment.pdf" class="cert-link">View PDF →</a>
+</div>
+<div class="cert-card">
+<div class="cert-icon">🔒</div>
+<div class="cert-info">
+<h3>Workplace Personal Data (HR) Privacy Training</h3>
+<span>Completed Apr 07, 2026</span>
+</div>
+<a href="certificates/Workplace_Personal_Data_HR_Privacy_Training_NonTech.pdf" class="cert-link">View PDF →</a>
+</div>
+<div class="cert-card">
+<div class="cert-icon">🏢</div>
+<div class="cert-info">
+<h3>Amazon Workplace Violence Awareness</h3>
+<span>Completed Jul 28, 2025</span>
+</div>
+<a href="certificates/Amazon_Workplace_Violence_Awareness.pdf" class="cert-link">View PDF →</a>
+</div>
+</div>
+</div>
+
+<!-- Posting Schedule Quick View -->
+<div class="section">
+<div class="section-head">
+<span class="ico">🗓️</span>
+<h2>Posting Schedule at a Glance</h2>
+</div>
+<table style="width:100%;border-collapse:collapse;background:#141414;border-radius:12px;overflow:hidden">
+<thead>
+<tr style="background:#1a1a1a">
+<th style="padding:12px 16px;text-align:left;color:#0077b5;font-size:.78rem;text-transform:uppercase">Day</th>
+<th style="padding:12px 16px;text-align:left;color:#0077b5;font-size:.78rem;text-transform:uppercase">Date</th>
+<th style="padding:12px 16px;text-align:left;color:#0077b5;font-size:.78rem;text-transform:uppercase">Type</th>
+<th style="padding:12px 16px;text-align:left;color:#0077b5;font-size:.78rem;text-transform:uppercase">Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">1</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Thu, Apr 24</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(0,119,181,.15);color:#0077b5;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Certificate</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">SQL 101</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">2</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Fri, Apr 25</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(76,175,80,.15);color:#4caf50;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Profile Boost</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Career Journey Story</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">3</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Sat, Apr 26</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(0,119,181,.15);color:#0077b5;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Certificate</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Business Conduct & Ethics</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">4</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Mon, Apr 28</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(156,39,176,.15);color:#ce93d8;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Thought Leadership</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">High-Volume Hiring Tips</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">5</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Tue, Apr 29</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(0,119,181,.15);color:#0077b5;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Certificate</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Preventing Workplace Harassment</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">6</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Wed, Apr 30</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(76,175,80,.15);color:#4caf50;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Profile Boost</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Diversity & Inclusion</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">7</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Thu, May 1</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(255,152,0,.15);color:#ff9800;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Engagement</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Poll: Hiring Challenges</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">8</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Fri, May 2</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(0,119,181,.15);color:#0077b5;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Certificate</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Data Privacy Training</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">9</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Mon, May 5</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(76,175,80,.15);color:#4caf50;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Profile Boost</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Data Skills for HR</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">10</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Tue, May 6</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(0,119,181,.15);color:#0077b5;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Certificate</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Workplace Violence Awareness</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">11</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Wed, May 7</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(156,39,176,.15);color:#ce93d8;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Thought Leadership</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Lessons Before Entering HR</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">12</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Thu, May 8</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(76,175,80,.15);color:#4caf50;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Profile Boost</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">4+ Years at Amazon</td></tr>
+<tr><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">13</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Fri, May 9</td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem"><span style="background:rgba(255,152,0,.15);color:#ff9800;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Engagement</span></td><td style="padding:10px 16px;border-bottom:1px solid #1e1e1e;font-size:.85rem">Let's Connect!</td></tr>
+<tr><td style="padding:10px 16px;font-size:.85rem">14</td><td style="padding:10px 16px;font-size:.85rem">Mon, May 12</td><td style="padding:10px 16px;font-size:.85rem"><span style="background:rgba(156,39,176,.15);color:#ce93d8;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:600">Recap</span></td><td style="padding:10px 16px;font-size:.85rem">2-Week Recap + Goals</td></tr>
+</tbody>
+</table>
+</div>
+
+</div>
+
+<footer>
+<p>LinkedIn Hub for Surya Gautam · Generated April 2026</p>
+</footer>
+
+</body>
+</html>
